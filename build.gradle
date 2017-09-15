@@ -1,0 +1,13 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.1'
+}
+
+description = """Kirk"""
+
+apply plugin: 'eclipse'
+
+subprojects {
+    group = 'de.r3r57.kirk'
+    apply plugin: 'java'
+    apply plugin: 'application'
+}

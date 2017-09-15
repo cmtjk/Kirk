@@ -1,0 +1,8 @@
+description = """Kirk Client"""
+
+mainClassName = 'de.r3r57.kirk.client.Main'
+jar {
+    manifest {
+        attributes 'Main-Class': 'de.r3r57.kirk.client.Main'
+    }
+}

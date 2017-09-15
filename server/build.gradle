@@ -1,0 +1,12 @@
+description = """KirK Server"""
+
+mainClassName = 'de.r3r57.kirk.server.Main'
+jar {
+    manifest {
+        attributes 'Main-Class': 'de.r3r57.kirk.server.Main'
+    }
+}
+
+run {
+    args = ["8971"]
+}

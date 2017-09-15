@@ -1,0 +1,40 @@
+.custom-pane {
+    -fx-background-color: lightgrey;
+		-fx-border: none;
+}
+#connect-button {
+	-fx-background-color: rgba(0, 230, 0, 1);;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(gaussian, grey, 5,0,0,1);
+}
+
+#connect-button:hover {
+	-fx-background-color: rgba(0, 245, 0, 1);
+}
+
+#connect-button:pressed {
+	-fx-effect: innershadow( gaussian , black , 10 , 0 , 0 , 1 );
+}
+
+
+#disconnect-button {
+	-fx-text-fill: white;
+	-fx-background-color: rgba(230, 0, 0, 1);;
+	-fx-font-weight: bold;
+	-fx-effect: innershadow(gaussian, black, 5,0,0,1);
+ }
+
+ #disconnect-button:hover {
+ 	-fx-background-color: rgba(245, 0, 0, 1);
+ }
+
+ #disconnect-button:pressed {
+ 	-fx-effect: dropshadow( gaussian , black , 5 , 0 , 0 , 1 );
+ }
+
+#fugger-root {
+	-fx-background-image: url(../fugger2/background.png);
+	-fx-background-position: center center;
+	-fx-effect: innershadow(gaussian, black, 5,0,0,1);
+}
+
